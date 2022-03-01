@@ -1,0 +1,143 @@
+.home {
+  background-image: url("./../assets/home/background-home-mobile.jpg");
+}
+
+.home p {
+  margin-top: 2em;
+  color: white;
+}
+
+.home main {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home main div {
+  width: 327px;
+  height: 256px;
+  margin: 2em 0;
+}
+
+.home .explore {
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.home h1 {
+  font-size: 80px;
+  text-align: center;
+}
+
+.home h2 {
+  color: #d0d6f9;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.home .explore h3 {
+  color: #0b0d17;
+  font-size: 20px;
+}
+
+.home p {
+  font-size: 15px;
+  text-align: center;
+  color: #d0d6f9;
+  line-height: 2;
+}
+
+@media (max-width: 320px) {
+  .home main div {
+    width: 280px;
+  }
+}
+
+/* -------------------tablet view------------------------- */
+@media (width: 768px) {
+  .home {
+    background-image: url("./../assets/home/background-home-tablet.jpg");
+  }
+
+  .home main div {
+    width: 450px;
+    height: 334px;
+    margin: 4em 0;
+  }
+
+  .home h1 {
+    font-size: 150px;
+  }
+
+  .home h2 {
+    font-size: 20px;
+  }
+
+  .home h3 {
+    font-size: 32px;
+  }
+
+  .home p {
+    font-size: 20px;
+  }
+
+  .home .explore {
+    width: 242px;
+    height: 242px;
+    margin: 2em;
+  }
+}
+
+/* ---------------destop vieww---------------------- */
+@media (min-width: 1024px) {
+  .home {
+    background-image: url("./../assets/home/background-home-desktop.jpg");
+  }
+
+  .home main {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .home main div {
+    width: 384px;
+    height: 302px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .home h1 {
+    font-size: 120px;
+  }
+
+  .home h2 {
+    font-size: 28px;
+  }
+
+  .home p {
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .home .explore {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 4em;
+  }
+}

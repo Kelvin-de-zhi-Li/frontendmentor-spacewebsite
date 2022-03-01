@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: black;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Bellefair', serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: lighter;
+
+}
+
+h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.main-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  z-index: -1;
+}
